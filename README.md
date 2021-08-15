@@ -2,11 +2,11 @@
 
 App description
 
-![App Screenshot](./demo.png)
+![Image alt for the App Screenshot](./demo.png)
 
 ## ⚡ Requirements
 
-- Node.js version 10.13 or more
+- Node.js version 14 or more
 
 ## 📦 Installation
 
@@ -20,7 +20,7 @@ App description
 
 APP_NAME comes with the following commands:
 
-- `npm run dev`: Starts the application in dev mode
+- `npm run dev`: Start the application in dev mode
 - `npm run build`: Build the application for production
 - `npm run start`: Start the application for production
 
