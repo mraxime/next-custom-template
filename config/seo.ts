@@ -8,7 +8,7 @@ const seo: NextSeoProps = {
 		title: 'My App | ...',
 		description: 'My App - description',
 		type: 'website',
-		locale: 'fr_CA',
+		locale: 'fr-CA',
 		url: process.env.SITE_URL,
 		site_name: 'My App: ...',
 		// images: [

@@ -7,7 +7,6 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"tsc": "tsc --pretty --noEmit",
 		"fix:prettier": "prettier --write .",
 		"postbuild": "next-sitemap",
 		"postinstall": "husky install"
@@ -47,7 +46,7 @@
 	},
 	"lint-staged": {
 		"**/*.{ts,tsx}": [
-			"yarn tsc"
+			"bash -c tsc --noEmit"
 		],
 		"**/*.{js,jsx,ts,tsx}": [
 			"eslint_d",

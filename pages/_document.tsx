@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
 	render() {
 		return (
-			<Html lang="fr_CA">
+			<Html lang="fr-CA">
 				<Head />
 				<body className="loading">
 					<Main />
