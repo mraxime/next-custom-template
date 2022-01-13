@@ -1,17 +1,29 @@
-# App Name
+# MY APP
 
 App description...
 
-## Requirements
+![Image alt for the App Screenshot](./demo.png)
 
-- Node.js version 14 or more
+## ⚡ Requirements
 
-## Installation
+- Node.js version 16 or more
 
-1. run `yarn install`
+## 📦 Installation
 
-## Usage
+1. `yarn install`
 
-- `yarn dev`: Start the app for development
-- `yarn build`: Build the app for production
-- `yarn start`: Start the app for production
+## 🚀 Usage
+
+### Commands
+
+APP_NAME comes with the following commands:
+
+- `yarn dev`: Start the application in dev mode
+- `yarn build`: Build the application for production
+- `yarn start`: Start the application for production
+
+## ✨ Built With
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://github.com/microsoft/TypeScript)
+- [TailwindCSS](https://tailwindcss.com/)
