@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-primary: #82c341;
+		--color-secondary: #1c2b39;
+
+		--color-text: #ffffff;
+		--color-background: #1c2b39;
+	}
+
+	* {
+		box-sizing: inherit;
+	}
+
+	html {
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		background-color: var(--color-background);
+		color: var(--color-text);
+		font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+			Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		height: 100%;
+		margin: 0;
+		overscroll-behavior-x: none;
+		padding: 0;
+		text-rendering: optimizeLegibility;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	}
+
+	div#__next {
+		position: relative;
+		min-height: 100%;
+	}
+
+	h1,
+	h2 {
+		font-family: Iconic-Stencil;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	@font-face {
+		font-family: 'Iconic';
+		src: url('/fonts/Iconic/Iconic-Regular.woff2') format('woff2'),
+			url('/fonts/Iconic/Iconic-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'Iconic-Stencil';
+		src: url('/fonts/Iconic/Iconic-Stencil-Regular.woff2') format('woff2'),
+			url('/fonts/Iconic/Iconic-Stencil-Regular.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+	}
+}
+
+@layer utilities {
+	.container {
+		@apply max-w-screen-xl mx-auto px-4 sm:px-8 md:px-16;
+	}
+
+	/* Util to break out a container width */
+	.full-width {
+		/* old solution: */
+		/* width: 100vw; */
+		/* position: relative; */
+		/* left: 50%; */
+		/* right: 50%; */
+		/* margin-left: -50vw; */
+		/* margin-right: -50vw; */
+
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+	.full-right {
+		margin-right: calc(-50vw + 50%);
+	}
+	.full-left {
+		margin-left: calc(-50vw + 50%);
+	}
+}
