@@ -1,6 +1,8 @@
 {
 	"compilerOptions": {
 		"allowJs": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
 		"baseUrl": ".",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
@@ -11,9 +13,13 @@
 		"module": "esnext",
 		"moduleResolution": "node",
 		"noEmit": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
 		"paths": {
 			"@/*": ["./*"]
 		},
+		"pretty": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"strict": true,
