@@ -9,7 +9,7 @@
 		"tsc": "tsc --noEmit",
 		"postinstall": "husky install",
 		"postbuild": "next-sitemap",
-		"prettier:fix": "prettier --config .prettierrc.js --write \"**/*.{ts,tsx}\""
+		"prettier:fix": "prettier --config .prettierrc.js --write \"**/*.{js,jsx,ts,tsx}\""
 	},
 	"dependencies": {
 		"next": "^12.1.0",
