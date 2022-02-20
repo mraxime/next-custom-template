@@ -1,29 +1,36 @@
-# MY APP
+# {{APP_NAME}}
 
 App description...
 
 ![Image alt for the App Screenshot](./demo.png)
 
-## ⚡ Requirements
+## 🚀 Getting Started
 
-- Node.js version 16 or more
+### Requirements
 
-## 📦 Installation
+- [pnpm](https://pnpm.io/)
 
-1. `yarn install`
+### Running the Project
 
-## 🚀 Usage
+First, run the development server:
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 ### Commands
 
-APP_NAME comes with the following commands:
+- `pnpm run dev`: Start the application in dev mode
+- `pnpm run build`: Build the application for production
+- `pnpm run start`: Start the application for production
 
-- `yarn dev`: Start the application in dev mode
-- `yarn build`: Build the application for production
-- `yarn start`: Start the application for production
-
-## ✨ Built With
+## 🧰 Built With
 
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [TailwindCSS](https://tailwindcss.com/)
+- [pnpm](https://pnpm.io/)
