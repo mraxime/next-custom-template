@@ -48,7 +48,10 @@
 		font-family: Iconic-Stencil;
 	}
 
-	input:focus {
+	a:focus,
+	button:focus,
+	input:focus,
+	textarea:focus {
 		outline: none;
 	}
 
@@ -73,7 +76,7 @@
 
 @layer utilities {
 	.container {
-		@apply max-w-screen-xl mx-auto px-4 sm:px-8 lg:px-16;
+		@apply mx-auto max-w-screen-xl px-4 sm:px-8 lg:px-16;
 	}
 
 	/* Util to break out a container width */

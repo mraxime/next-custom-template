@@ -1,8 +1,7 @@
-import '@/assets/globals.css'
-
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
+import '@/assets/globals.css'
 import type { NextPageWithLayout } from '@/types'
 
 type AppPropsWithLayout = AppProps & {
