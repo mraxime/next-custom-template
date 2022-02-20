@@ -6,10 +6,6 @@ const buildEslintCommand = (filenames) =>
 		.join(' --file ')}`
 
 module.exports = {
-	'**/*.{js,jsx,ts,tsx}': [
-		buildEslintCommand,
-		'yarn prettier:fix',
-		'rustywind --write',
-	],
+	'**/*.{js,jsx,ts,tsx}': [buildEslintCommand, 'yarn prettier:fix'],
 	'*.{md,json,yml}': ['prettier --write'],
 }
